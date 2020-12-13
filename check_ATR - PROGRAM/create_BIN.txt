@@ -1,0 +1,224 @@
+Name: SELECT;
+
+Desc: aaaaaaaaaaaaaaaaaaaaa;
+
+Dir:  Case3;
+
+Head: 00 A4 00 00 02;
+
+Data: 00 09;
+
+SW: 90 00;
+
+
+
+Name: VERIFY;
+
+Desc: bbbbbbbbbbbbbbbbbbbbbbb;
+
+Dir:  Case3;
+
+Head: 00 20 00 00 08;
+
+Data: 31 32 33 34 35 36 37 38;
+
+SW: 90 00;
+
+
+
+Name: CREATE_EF;
+
+Desc: create bin_file 2;
+
+Dir:  Case3;
+
+Head: 90 34 01 00 08;
+
+Data: 2F 05 02 00 0F 2F 2F FF;
+
+SW: 90 00;
+
+
+
+Name: SELECT;
+
+Desc: dddddddddddddddddddddddddd;
+
+Dir:  Case3;
+
+Head: 00 A4 00 00 02;
+
+Data: 2F 05;
+
+SW: 90 00;
+
+
+
+Name: UPDATE_BINARY;
+
+Desc: eeeeeeeeeeeeeeeeeeeeeeeeee;
+
+Dir:  Case3;
+
+Head: 00 D6 00 00 40;
+
+Data: 1A 1A 1A 1A 1A 1A 1A 1A
+      
+1A 1A 1A 1A 1A 1A 1A 1A
+      
+1A 1A 1A 1A 1A 1A 1A 1A
+      
+1A 1A 1A 1A 1A 1A 1A 1A
+      
+1A 1A 1A 1A 1A 1A 1A 1A
+      
+1A 1A 1A 1A 1A 1A 1A 1A
+      
+1A 1A 1A 1A 1A 1A 1A 1A
+      
+1A 1A 1A 1A 1A 1A 1A 1A;
+
+SW: 90 00;
+
+
+
+Name: READ_BINARY;
+
+Desc: read bin-file 1;
+
+Dir:  Case2;
+
+Head: 00 B0 00 00 40;
+
+SW: 90 00;
+
+
+
+Name: CREATE_EF;
+
+Desc: create bin_file 2;
+
+Dir:  Case3;
+
+Head: 90 34 01 00 08;
+
+Data: 2F 03 02 00 0F 2F 2F FF;
+
+SW: 90 00;
+
+
+
+Name: SELECT;
+
+Desc: choose bin_file 2;
+
+Dir:  Case3;
+Head: 00 A4 00 00 02;
+
+Data: 2F 03;
+
+SW: 90 00;
+
+
+
+Name: UPDATE_BINARY;
+
+Desc: eeeeeeeeeeeeeeeeeeeeeeeeee;
+
+Dir:  Case3;
+
+Head: 00 D6 00 00 40;
+
+Data: 2B 2B 2B 2B 2B 2B 2B 2B
+      
+2B 2B 2B 2B 2B 2B 2B 2B
+      
+2B 2B 2B 2B 2B 2B 2B 2B
+      
+2B 2B 2B 2B 2B 2B 2B 2B
+      
+2B 2B 2B 2B 2B 2B 2B 2B
+      
+2B 2B 2B 2B 2B 2B 2B 2B
+      
+2B 2B 2B 2B 2B 2B 2B 2B
+      
+2B 2B 2B 2B 2B 2B 2B 2B;
+
+SW: 90 00;
+
+
+
+Name: READ_BINARY;
+
+Desc: ffffffffffffffffffffffffffff;
+
+Dir:  Case2;
+
+Head: 00 B0 00 00 40;
+
+SW: 90 00;
+
+
+
+Name: CREATE_EF;
+Desc: create bin_file 3;
+
+Dir:  Case3;
+
+Head: 90 34 01 00 08;
+
+Data: 2F 04 02 00 0F 2F 2F FF;
+
+SW: 90 00;
+
+
+
+Name: SELECT;
+
+Desc: choose bin_file 2;
+
+Dir:  Case3;
+
+Head: 00 A4 00 00 02;
+
+Data: 2F 04;
+SW: 90 00;
+
+
+
+Name: UPDATE_BINARY;
+
+Desc: eeeeeeeeeeeeeeeeeeeeeeeeee;
+
+Dir:  Case3;
+Head: 00 D6 00 00 40;
+
+Data: 3C 3C 3C 3C 3C 3C 3C 3C
+      
+3C 3C 3C 3C 3C 3C 3C 3C
+      
+3C 3C 3C 3C 3C 3C 3C 3C
+      
+3C 3C 3C 3C 3C 3C 3C 3C
+      
+3C 3C 3C 3C 3C 3C 3C 3C
+      
+3C 3C 3C 3C 3C 3C 3C 3C
+      
+3C 3C 3C 3C 3C 3C 3C 3C
+      
+3C 3C 3C 3C 3C 3C 3C 3C;
+
+SW: 90 00;
+
+
+
+Name: READ_BINARY;
+
+Desc: ffffffffffffffffffffffffffff;
+Dir:  Case2;
+
+Head: 00 B0 00 00 40;
+
+SW: 90 00;

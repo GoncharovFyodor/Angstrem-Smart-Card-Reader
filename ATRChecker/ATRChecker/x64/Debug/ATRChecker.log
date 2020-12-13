@@ -1,0 +1,7 @@
+﻿  ATRChecker.cpp
+\\mac\home\documents\angstrem\atrchecker\atrchecker\atrchecker.cpp(332): warning C4244: аргумент: преобразование "long" в "_Elem", возможна потеря данных
+          with
+          [
+              _Elem=char
+          ]
+  ATRChecker.vcxproj -> \\Mac\Home\Documents\Angstrem\ATRChecker\x64\Debug\ATRChecker.exe

@@ -1,0 +1,244 @@
+Name: GET_CHALLENGE;
+Desc: qwertyuio;
+Dir:  Case2;
+Head: 00 84 00 00 10;
+SW: 90 00;
+
+Name: CHECK_EEPROM;
+Desc: dgfkalgtyrsea;
+Dir:  Case1;
+Head: 90 EE 00 00 00;
+SW: 90 00;
+
+Name: GET_DATA;
+Desc: asdfghjk;
+Dir:  Case2;
+Head: 00 CA 01 00 04;
+SW: 90 00;
+
+Name: WRITE_MAN_KEY;
+Desc: afaathdkutyrryuy;
+Dir:  Case3;
+Head: 90 42 00 00 08;
+Data: 31 31 31 31 31 31 31 31;
+SW: 90 00;
+
+Name: PUT_DATA;
+Desc: dhadgjdgfj;
+Dir:  Case3;
+Head: 00 DA 01 10 04;
+Data: 41 54 00 02;
+SW: 90 00;
+
+Name: HANGE_PHASE;
+Desc: fs<hdgahgfs;
+Dir:  Case1;
+Head: 90 3A 01 00 00;
+SW: 90 00;
+
+Name: VERIFY;
+Desc: dzgfdjjhj;
+Dir:  Case3;
+Head: 00 20 00 00 08;
+Data: 31 31 31 31 31 31 31 31;
+SW: 90 00;
+
+Name: PUT_DATA;
+Desc: dzgjdfhjhgjhj;
+Dir:  Case3;
+Head: 00 DA 01 11 04;
+Data: 41 54 00 02;
+SW: 90 00;
+
+Name: WRITE_MAN_KEY;
+Desc: grsjtyjyujy;
+Dir:  Case3;
+Head: 90 42 00 00 08;
+Data: 31 31 31 31 31 31 31 31;
+SW: 90 00;
+
+Name: HANGE_PHASE;
+Desc: rsyjtjtyj;
+Dir:  Case1;
+Head: 90 3A 02 00 00;
+SW: 90 00;
+
+Name: VERIFY;
+Desc: ryjtuuyjyu;
+Dir:  Case3;
+Head: 00 20 00 00 08;
+Data: 31 31 31 31 31 31 31 31;
+SW: 90 00;
+
+Name: PUT_DATA;
+Desc: esdhjtyhjtyj;
+Dir:  Case3;
+Head: 00 DA 01 12 04;
+Data: 41 54 00 02;
+SW: 90 00;
+
+Name: WRITE_MAN_KEY;
+Desc: rthtyhjtyjtyj;
+Dir:  Case3;
+Head: 90 42 00 00 08;
+Data: 31 31 31 31 31 31 31 31;
+SW: 90 00;
+
+Name: HANGE_PHASE;
+Desc: zdgzshgfhfh;
+Dir:  Case1;
+Head: 90 3A 03 00 00;
+SW: 90 00;
+
+Name: VERIFY;
+Desc: dghgdhghdsh;
+Dir:  Case3;
+Head: 00 20 00 00 08;
+Data: 31 31 31 31 31 31 31 31;
+SW: 90 00;
+
+Name: PUT_DATA;
+Desc: fffffffffffffffffff;
+Dir:  Case3;
+Head: 00 DA 01 13 08;
+Data: 41 54 00 02 20 04 02 02;
+SW: 90 00;
+
+Name: WRITE_MAN_KEY;
+Desc: dfffffffffffffffffff;
+Dir:  Case3;
+Head: 90 42 00 00 08;
+Data: 31 31 31 31 31 31 31 31;
+SW: 90 00;
+
+Name: CREATE_MDF;
+Desc: ddddddddddddddddd;
+Dir:  Case3;
+Head: 90 30 80 00 0A;
+Data: 22 22 22 22 00 0B 00 00 07 00;
+SW: 90 00;
+
+Name: APPEND_ACCESS_PATTERN;
+Desc: aaaaaaaaaaaaaaaaaaa;
+Dir:  Case3;
+Head: 90 3E 02 00 06;
+Data: 00 00 00 28 90 00;
+SW: 90 00;
+
+Name: APPEND_ACCESS_PATTERN;
+Desc: eeeeeeeeeeeee;
+Dir:  Case3;
+Head: 90 3E 04 00 0C;
+Data: 58 80 00 68 90 00 7E 82 20 8E 52 20;
+SW: 90 00;
+
+Name: CREATE_KF;
+Desc: tttttttttttttttttttt;
+Dir:  Case3;
+Head: 90 36 19 00 0B;
+Data: 00 09 00 08 02 2F F0 FF 00 03 03;
+SW: 90 00;
+
+Name: SELECT;
+Desc: nnnnnnnnnnnnnnnnnnnnn;
+Dir:  Case3;
+Head: 00 A4 00 00 02;
+Data: 00 09;
+SW: 90 00;
+
+Name: APPEND_RECORD;
+Desc: wwwwwwwwwwwwwwwwwwwww;
+Dir:  Case3;
+Head: 00 E2 00 00 08;
+Data: 31 32 33 34 35 36 37 38;
+SW: 90 00;
+
+Name: VERIFY;
+Desc: qqqqqqqqqqqqqqqqqqqqqq;
+Dir:  Case3;
+Head: 00 20 00 00 08;
+Data: 31 32 33 34 35 36 37 38;
+SW: 90 00;
+
+Name: CREATE_KF;
+Desc: llllllllllllllllllllll;
+Dir:  Case3;
+Head: 90 36 19 00 0B;
+Data: 00 0A 00 08 02 2F F0 FF 00 03 03;
+SW: 90 00;
+
+Name: SELECT;
+Desc: uuuuuuuuuuuuuuuuuuuu;
+Dir:  Case3;
+Head: 00 A4 00 00 02;
+Data: 00 0A;
+SW: 90 00;
+
+Name: APPEND_RECORD;
+Desc: ttttttttttttttttttttttt;
+Dir:  Case3;
+Head: 00 E2 00 00 08;
+Data: 31 31 31 31 31 31 31 31;
+SW: 90 00;
+
+Name: VERIFY;
+Desc: bbbbbbbbbbbbbbbbbbbbbbbb;
+Dir:  Case3;
+Head: 00 20 00 00 08;
+Data: 31 31 31 31 31 31 31 31;
+SW: 90 00;
+
+Name: HANGE_PHASE;
+Desc: vvvvvvvvvvvvvvvvvvvvv;
+Dir:  Case1;
+Head: 90 3A 80 00 00;
+SW: 90 00;
+
+Name: CREATE_EF;
+Desc: lllllllllllllllllll;
+Dir:  Case3;
+Head: 90 34 42 00 08;
+Data: 2F 01 00 08 0F 2F 2F FF;
+SW: 90 00;
+
+Name: SELECT;
+Desc: iiiiiiiiiiiiiiiiii;
+Dir:  Case3;
+Head: 00 A4 00 00 02;
+Data: 2F 01;
+SW: 90 00;
+
+Name: APPEND_RECORD;
+Desc: ooooooooooooooooooooooo;
+Dir:  Case3;
+Head: 00 E2 00 00 08;
+Data: 0A 06 8F 8C 8E 8F 8C 80;
+SW: 90 00;
+
+Name: PUT_DATA;
+Desc: pppppppppppppppppppppppp;
+Dir:  Case3;
+Head: 00 DA 01 14 03;
+Data: A1 00 00;
+SW: 90 00;
+
+Name: SELECT;
+Desc: rrrrrrrrrrrrrrrrrrr;
+Dir:  Case3;
+Head: 00 A4 00 00 02;
+Data: 00 0A;
+SW: 90 00;
+
+Name: UPDATE_RECORD;
+Desc: mmmmmmmmmmmmmmmm;
+Dir:  Case3;
+Head: 00 DC 00 00 08;
+Data: 00 00 00 00 00 00 10 10;
+SW: 90 00;
+
+Name: VERIFY;
+Desc: sssssssssssssssss;
+Dir:  Case3;
+Head: 00 20 00 00 08;
+Data: 31 32 33 34 35 36 37 38;
+SW: 90 00;
